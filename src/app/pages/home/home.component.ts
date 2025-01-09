@@ -4,6 +4,8 @@ import { SectionTitleComponent } from '../../shared-components/section-title/sec
 import { WhyUsSecComponent } from '../../components/why-us-sec/why-us-sec.component';
 import * as whyUsData from './data/data.json';
 import { CommonModule } from '@angular/common';
+import { SectionCardComponent } from '../../components/section-card/section-card.component';
+import { SectionCarouselComponent } from '../../components/section-carousel/section-carousel.component';
 
 @Component({
   selector: 'app-home',
@@ -13,14 +15,20 @@ import { CommonModule } from '@angular/common';
     SectionTitleComponent,
     WhyUsSecComponent,
     CommonModule,
+    SectionCardComponent,
+    SectionCarouselComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
 export class HomeComponent implements OnInit {
   whyUsList: { title: string; src: string }[] = [];
+  serviceList: { title: string; image: string; description: string }[] = [];
+  linkList: { title: string; image: string; description: string }[] = [];
 
   ngOnInit(): void {
     this.whyUsList = (whyUsData as any).whyUsList;
+    this.serviceList = (whyUsData as any).servicesList;
+    this.linkList = (whyUsData as any).linksList;
   }
 }

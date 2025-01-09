@@ -16,5 +16,56 @@
       "title": "High Schools",
       "src": "../../../assets/images/school-icon.png"
     }
+  ],
+  "servicesList": [
+    {
+      "title": "Consultants",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
+    },
+
+    {
+      "title": "Institutions",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
+    },
+    {
+      "title": "Students",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
+    },
+    {
+      "title": "High Schools",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
+    }
+  ],
+  "linksList": [
+    {
+      "title": "Course Subjects",
+      "description": "Explore different course subjects that align to your study objectives",
+      "image": "../../../assets/images/Search_icon.png"
+    },
+
+    {
+      "title": "Scholarships",
+      "description": "Search more than 5,000 scholarships offered by over 370 institutions across the world",
+      "image": "../../../assets/images/fellowship.png"
+    },
+    {
+      "title": "Check your eligibility before applying",
+      "description": "FastLane allows you to see if you can get into a course before you apply",
+      "image": "../../../assets/images/get-instant-icon.jpg"
+    },
+    {
+      "title": "Support with applications",
+      "description": "Expert counsellors can help you to apply to multiple courses",
+      "image": "../../../assets/images/search.png"
+    },
+    {
+      "title": "Cost calculator",
+      "description": "Estimate how much you will need to cover your expenses as an international student with our cost calculator. ",
+      "image": "../../../assets/images/Cost-calculator-icon.png"
+    }
   ]
 }

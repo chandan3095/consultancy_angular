@@ -14,7 +14,7 @@
                 <h1 class="headline1-color pb-3">
                   Student Admission Consultancy
                 </h1>
-                <p class="text-color pb-2">
+                <p class="primary-text-color pb-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                   amet, et magni ipsa repellendus qui architecto dolor
                   praesentium vel molestiae.
@@ -37,7 +37,7 @@
                 <h1 class="headline1-color pb-3">
                   Student Admission Consultancy
                 </h1>
-                <p class="text-color pb-2">
+                <p class="primary-text-color pb-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                   amet, et magni ipsa repellendus qui architecto dolor
                   praesentium vel molestiae.
@@ -60,7 +60,7 @@
                 <h1 class="headline1-color pb-3">
                   Student Admission Consultancy
                 </h1>
-                <p class="text-color pb-2">
+                <p class="primary-text-color pb-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
                   amet, et magni ipsa repellendus qui architecto dolor
                   praesentium vel molestiae.
@@ -87,17 +87,100 @@
 
     <div class="row">
       <div
-        class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"
+        class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"
         *ngFor="let item of whyUsList"
       >
-        <div class="d-flex justify-content-center">
-          <why-us-sec
-            title="{{ item.title }}"
-            src="{{ item.src }}"
-          ></why-us-sec>
-        </div>
+        <why-us-sec title="{{ item.title }}" src="{{ item.src }}"></why-us-sec>
       </div>
     </div>
   </div>
 </section>
 <!-- Why us  -->
+
+<!-- services sec  -->
+<section class="services py-5">
+  <div class="container">
+    <div class="d-flex justify-content-between pb-3">
+      <app-section-title title="Services"></app-section-title>
+      <app-props-button title="View All"></app-props-button>
+    </div>
+    <div class="row">
+      <div
+        class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"
+        *ngFor="let card of serviceList.slice(0, 3)"
+      >
+        <section-card
+          title="{{ card.title }}"
+          image="{{ card.image }}"
+          description="{{ card.description }}"
+        ></section-card>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- services sec  -->
+
+<!-- book a demo -->
+<section class="book-demo py-5">
+  <div class="container">
+    <app-section-title title="Book a Demo"></app-section-title>
+
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <p class="secondary-text-color lh-lg">
+          UniAgents is a leading technology services provider, and part of
+          Global Reach, an Overseas Education Consultant for over 32 years. We
+          help Institutions, Consultants, Government agencies High Schools and
+          Students, meet their respective international student mobility goals.
+          To understand more how our technology helps meet your requirements,
+          you can book a consultation session with one of our trained and
+          Certified Relationship Managers. Your Specialist Relationship Manager
+          will provide recommendations that will help you in making a decision
+          based on a demonstration of the technology system. You can also
+          request for a FREE trial if you qualify for it.
+        </p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="book-demo-img">
+          <img
+            src="../../../assets/images/echo-system.png"
+            alt=""
+            class="w-100"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- book a demo -->
+
+<!-- important links -->
+<section class="important-links py-5">
+  <div class="container">
+    <app-section-title title="Important Links"></app-section-title>
+
+    <div class="row">
+      <div
+        class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"
+        *ngFor="let card of linkList"
+      >
+        <section-card
+          title="{{ card.title }}"
+          image="{{ card.image }}"
+          description="{{ card.description }}"
+        ></section-card>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- important links -->
+
+<!-- students services  -->
+<section class="student-service py-5">
+  <div class="container">
+    <app-section-title title="Student's Services"></app-section-title>
+
+    <section-carousel [linkList]="linkList"></section-carousel>
+  </div>
+</section>
+<!-- students services  -->

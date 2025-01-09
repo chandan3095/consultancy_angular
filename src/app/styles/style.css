@@ -46,6 +46,10 @@
 .headline5-color {
   color: antiquewhite;
 }
-.text-color {
+.primary-text-color {
   color: antiquewhite;
+}
+
+.secondary-text-color {
+  color: gray;
 }

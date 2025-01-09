@@ -1,0 +1,17 @@
+<swiper-container
+  loop="true"
+  slides-per-view="3"
+  speed="500"
+  spaceBetween="30"
+  autoPlay="true"
+>
+  <swiper-slide *ngFor="let card of linkList">
+    <div class="mx-3">
+      <section-card
+        title="{{ card.title }}"
+        image="{{ card.image }}"
+        description="{{ card.description }}"
+      ></section-card>
+    </div>
+  </swiper-slide>
+</swiper-container>
