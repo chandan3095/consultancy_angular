@@ -1,0 +1,103 @@
+<!-- Home Carousel sec  -->
+<div class="container-fluid g-0">
+  <div
+    id="carouselExampleFade"
+    class="carousel slide carousel-fade"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <div class="carousel1">
+          <div class="container d-flex align-items-center h-100">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h1 class="headline1-color pb-3">
+                  Student Admission Consultancy
+                </h1>
+                <p class="text-color pb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  amet, et magni ipsa repellendus qui architecto dolor
+                  praesentium vel molestiae.
+                </p>
+                <app-props-button
+                  color="light"
+                  title="Get Started"
+                ></app-props-button>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel2">
+          <div class="container d-flex align-items-center h-100">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h1 class="headline1-color pb-3">
+                  Student Admission Consultancy
+                </h1>
+                <p class="text-color pb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  amet, et magni ipsa repellendus qui architecto dolor
+                  praesentium vel molestiae.
+                </p>
+                <app-props-button
+                  color="light"
+                  title="Get Started"
+                ></app-props-button>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel3">
+          <div class="container d-flex align-items-center h-100">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h1 class="headline1-color pb-3">
+                  Student Admission Consultancy
+                </h1>
+                <p class="text-color pb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  amet, et magni ipsa repellendus qui architecto dolor
+                  praesentium vel molestiae.
+                </p>
+                <app-props-button
+                  color="light"
+                  title="Get Started"
+                ></app-props-button>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Home Carousel sec  -->
+
+<!-- Why us  -->
+<section class="why-us py-5">
+  <div class="container">
+    <app-section-title title="Why Us"></app-section-title>
+
+    <div class="row">
+      <div
+        class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3"
+        *ngFor="let item of whyUsList"
+      >
+        <div class="d-flex justify-content-center">
+          <why-us-sec
+            title="{{ item.title }}"
+            src="{{ item.src }}"
+          ></why-us-sec>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Why us  -->

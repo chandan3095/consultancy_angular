@@ -1,0 +1,20 @@
+{
+  "whyUsList": [
+    {
+      "title": "Consultants",
+      "src": "../../../assets/images/consultants-icon.png"
+    },
+    {
+      "title": "Institutions",
+      "src": "../../../assets/images/institution-icon.png"
+    },
+    {
+      "title": "Students",
+      "src": "../../../assets/images/student-icon-new.png"
+    },
+    {
+      "title": "High Schools",
+      "src": "../../../assets/images/school-icon.png"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@import url("../../styles/style.css");
+
+.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd;
+}

@@ -1,0 +1,14 @@
+@import url(../../styles/style.css);
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 24px;
+}
+
+.why-us-card:hover .title {
+  color: #05409a !important;
+  transition: all 0.3s;
+}
