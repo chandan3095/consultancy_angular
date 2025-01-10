@@ -25,10 +25,13 @@ export class HomeComponent implements OnInit {
   whyUsList: { title: string; src: string }[] = [];
   serviceList: { title: string; image: string; description: string }[] = [];
   linkList: { title: string; image: string; description: string }[] = [];
+  studentServiceList: { title: string; image: string; description: string }[] =
+    [];
 
   ngOnInit(): void {
     this.whyUsList = (whyUsData as any).whyUsList;
     this.serviceList = (whyUsData as any).servicesList;
     this.linkList = (whyUsData as any).linksList;
+    this.studentServiceList = (whyUsData as any).studentServiceList;
   }
 }
