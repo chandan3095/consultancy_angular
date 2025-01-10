@@ -10,4 +10,8 @@ import { PropsButtonComponent } from '../props-button/props-button.component';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  onClick() {
+    console.log('clicked');
+  }
+}

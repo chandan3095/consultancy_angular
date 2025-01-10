@@ -41,7 +41,10 @@
         </li>
       </ul>
       <div class="ps-5 w-30 d-flex justify-content-end">
-        <app-props-button title="Book a Demo"></app-props-button>
+        <app-props-button
+          title="Book a Demo"
+          (buttonClick)="onClick()"
+        ></app-props-button>
       </div>
     </div>
   </div>

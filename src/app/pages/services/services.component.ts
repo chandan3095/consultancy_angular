@@ -3,11 +3,17 @@ import { SectionTitleComponent } from '../../shared-components/section-title/sec
 import { SectionCardComponent } from '../../components/section-card/section-card.component';
 import { CommonModule } from '@angular/common';
 import * as whyUsData from '../home/data/data.json';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [SectionTitleComponent, SectionCardComponent, CommonModule],
+  imports: [
+    SectionTitleComponent,
+    SectionCardComponent,
+    CommonModule,
+    RouterModule,
+  ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css',
 })

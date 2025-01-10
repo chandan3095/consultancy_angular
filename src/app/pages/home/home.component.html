@@ -22,6 +22,7 @@
                 <app-props-button
                   color="light"
                   title="Get Started"
+                  (buttonClick)="onCarouselClick()"
                 ></app-props-button>
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
@@ -45,6 +46,7 @@
                 <app-props-button
                   color="light"
                   title="Get Started"
+                  (buttonClick)="onCarouselClick()"
                 ></app-props-button>
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
@@ -68,6 +70,7 @@
                 <app-props-button
                   color="light"
                   title="Get Started"
+                  (buttonClick)="onCarouselClick()"
                 ></app-props-button>
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
@@ -102,7 +105,10 @@
   <div class="container">
     <div class="d-flex justify-content-between pb-3">
       <app-section-title title="Services"></app-section-title>
-      <app-props-button title="View All"></app-props-button>
+      <app-props-button
+        title="View All"
+        (buttonClick)="onServiceClick()"
+      ></app-props-button>
     </div>
     <div class="row">
       <div

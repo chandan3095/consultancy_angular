@@ -37,3 +37,95 @@
   </div>
 </section>
 <!-- contact banner -->
+
+<!-- contact sec  -->
+<section class="contact-details-form py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <div
+          class="w-60 d-flex flex-column justify-content-center align-items-start h-100"
+        >
+          <h2 class="headline2-color">Student Admission Consultancy</h2>
+          <p class="font-bold m-0 headline2-color">
+            123 Elmwood Avenue Springfield,
+          </p>
+          <p class="headline2-color">IL 62704 United States</p>
+          <div>
+            <h4 class="headline2-color fs-6">
+              <i class="bi bi-envelope-at-fill"></i>
+              <span class="px-2">studentconsultancy&#64;gmail.com</span>
+            </h4>
+            <h4 class="headline2-color fs-6">
+              <i class="bi bi-telephone-fill"></i>
+              <span class="px-2">+91 8745879569</span>
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <form
+          class="shadow rounded p-3"
+          action="https://formspree.io/f/mwpeeoyb"
+          method="POST"
+        >
+          <!-- Name -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <!-- Contact Number -->
+          <div class="mb-3">
+            <label for="contact" class="form-label">Contact Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="contact"
+              name="contact"
+              placeholder="Enter your contact number"
+              required
+            />
+          </div>
+
+          <!-- Services Dropdown -->
+          <div class="mb-3">
+            <label for="services" class="form-label">Services</label>
+            <select class="form-select" id="services" name="services" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="web-development">Web Development</option>
+              <option value="graphic-design">Graphic Design</option>
+              <option value="seo">SEO Optimization</option>
+              <option value="digital-marketing">Digital Marketing</option>
+            </select>
+          </div>
+
+          <!-- Description -->
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea
+              class="form-control"
+              id="description"
+              name="description"
+              rows="4"
+              placeholder="Describe your requirements"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contact sec  -->

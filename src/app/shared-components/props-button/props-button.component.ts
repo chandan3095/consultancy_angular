@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-props-button',
@@ -13,11 +13,17 @@ export class PropsButtonComponent {
   @Input() isFilled: boolean = false;
   @Input() color: string = '';
 
+  @Output() buttonClick = new EventEmitter<void>();
+
   get buttonClasses(): string {
     let classes = this.isFilled ? 'btn btn-primary' : 'btn btn-outline-primary';
     if (this.color) {
       classes = classes.replace('primary', this.color);
     }
     return classes;
+  }
+
+  onClick() {
+    this.buttonClick.emit();
   }
 }
