@@ -38,6 +38,17 @@
       "title": "High Schools",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
       "image": "../../../assets/images/search.png"
+    },
+
+    {
+      "title": "Institutions",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
+    },
+    {
+      "title": "Students",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "image": "../../../assets/images/search.png"
     }
   ],
   "linksList": [
@@ -66,6 +77,39 @@
       "title": "Cost calculator",
       "description": "Estimate how much you will need to cover your expenses as an international student with our cost calculator. ",
       "image": "../../../assets/images/Cost-calculator-icon.png"
+    }
+  ],
+  "studentServiceList": [
+    {
+      "title": "Education loan",
+      "description": "Easy access to finances so you don’t delay your dreams.",
+      "image": "../../../assets/images/learning.png"
+    },
+
+    {
+      "title": "Accommodation",
+      "description": "Student apartment or homestay, the choice is yours.",
+      "image": "../../../assets/images/house.png"
+    },
+    {
+      "title": "Banking",
+      "description": "Open a bank account before you arrive.",
+      "image": "../../../assets/images/bank.png"
+    },
+    {
+      "title": "Health cover",
+      "description": "Your choice, your health cover, your peace of mind abroad.",
+      "image": "../../../assets/images/healthcare.png"
+    },
+    {
+      "title": "Money transfer",
+      "description": "Safe, secure and fast payments to your institution and other key services.",
+      "image": "../../../assets/images/coin.png"
+    },
+    {
+      "title": "SIM Cards",
+      "description": "No SIM? No problem - We've got it covered.",
+      "image": "../../../assets/images/card.png"
     }
   ]
 }
