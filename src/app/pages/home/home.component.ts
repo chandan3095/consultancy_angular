@@ -6,6 +6,7 @@ import * as whyUsData from './data/data.json';
 import { CommonModule } from '@angular/common';
 import { SectionCardComponent } from '../../components/section-card/section-card.component';
 import { SectionCarouselComponent } from '../../components/section-carousel/section-carousel.component';
+import { SectionAnimatedComponent } from '../../components/section-animated/section-animated.component';
 import { Router } from '@angular/router';
 
 @Component({
@@ -18,6 +19,7 @@ import { Router } from '@angular/router';
     CommonModule,
     SectionCardComponent,
     SectionCarouselComponent,
+    SectionAnimatedComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

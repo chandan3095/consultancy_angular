@@ -1,0 +1,150 @@
+@import url(../../styles/style.css);
+
+
+#animation-contianer * {
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+#animation-contianer {
+    font-size: 13px;
+    color: #fff;
+    height: 650px;
+    text-align: justify;
+}
+
+.animation-container {
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    background: url(../../../assets/images/app-logo.png) no-repeat center;
+    background-size: 300px auto;
+    position: relative;
+}
+
+#animation-contianer .animation-container span {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    line-height: 18px;
+    max-width: 300px;
+    text-align: center;
+}
+
+#animation-contianer .animation-container .first,
+#animation-contianer .animation-container .second,
+#animation-contianer .animation-container .fourth,
+#animation-contianer .animation-container .six {
+    top: 260px;
+    left: 340px;
+    opacity: 0;
+}
+
+#animation-contianer .animation-container .third,
+#animation-contianer .animation-container .fifth,
+#animation-contianer .animation-container .seven,
+#animation-contianer .animation-container .eight {
+    top: 260px;
+    right: 340px;
+    opacity: 0;
+}
+
+.animation-container a {
+    color: #fff;
+}
+
+#animation-contianer .animation-container strong {
+    font-size: 18px;
+    padding-bottom: 5px;
+    display: block;
+    color: #fff;
+    padding: 8px 0;
+    font-weight: 600;
+}
+
+#animation-contianer .animation-container i {
+    display: block;
+    background: #FFF;
+    border-radius: 100%;
+    width: 46px;
+    height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    color: #0e6bc2;
+    font-size: 20px !important;
+    font-style: normal;
+    padding: 12.5px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#animation-contianer .animation-container span img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 100%;
+    padding: 3px;
+}
+
+#animation-contianer .animation-container a:hover i,
+#animation-contianer .animation-container a:hover img {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #f5a807;
+}
+
+/*#animation-contianer .animation-container a:hover i{color: #fff;}*/
+#animation-contianer:hover .animation-container .first {
+    left: 340px;
+    opacity: 1;
+    top: 0;
+}
+
+#animation-contianer:hover .animation-container .second {
+    top: 100px;
+    left: 60px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .third {
+    top: 100px;
+    right: 60px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .fourth {
+    top: 250px;
+    left: -140px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .fifth {
+    top: 250px;
+    right: -140px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .six {
+    top: 380px;
+    left: 60px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .seven {
+    top: 380px;
+    right: 60px;
+    opacity: 1;
+}
+
+#animation-contianer:hover .animation-container .eight {
+    top: 470px;
+    right: 340px;
+    opacity: 1;
+}
+
+#animation-contianer a{
+    text-decoration: none;
+}
