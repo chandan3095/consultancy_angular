@@ -4,3 +4,8 @@
   font-weight: bold;
   color: #0d6efd;
 }
+
+.logo {
+  display: block;
+  width: 100px;
+}
