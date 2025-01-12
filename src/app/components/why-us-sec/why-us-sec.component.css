@@ -6,8 +6,20 @@
   border-radius: 50%;
   border: 1px solid grey;
   padding: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  background-color: #fef2d8;
+  transition: 0.75s;
+  cursor: pointer;
 }
-
+.why-us-card{
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.why-us-card:hover .image{
+  background-size: 150% auto;
+}
 .why-us-card:hover .title {
   color: #05409a !important;
   transition: all 0.3s;

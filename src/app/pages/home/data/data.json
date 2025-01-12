@@ -1,20 +1,39 @@
 {
-  "whyUsList": [
+  "associatedCities": [
     {
-      "title": "Consultants",
-      "src": "../../../assets/images/consultants-icon.png"
+      "title": "Kolkata",
+      "src": "../../../assets/images/kolkata.JPG",
+      "slug": "kolkata"
     },
     {
-      "title": "Institutions",
-      "src": "../../../assets/images/institution-icon.png"
+      "title": "Delhi NCR",
+      "src": "../../../assets/images/delhi.JPG",
+      "slug": "delhi"
     },
     {
-      "title": "Students",
-      "src": "../../../assets/images/student-icon-new.png"
+      "title": "Pune",
+      "src": "../../../assets/images/pune.JPG",
+      "slug": "pune"
     },
     {
-      "title": "High Schools",
-      "src": "../../../assets/images/school-icon.png"
+      "title": "Hyderabad",
+      "src": "../../../assets/images/hyderabad.JPG",
+      "slug": "hyderabad"
+    },
+    {
+      "title": "Mumbai",
+      "src": "../../../assets/images/mumbai.JPG",
+      "slug": "mumbai"
+    },
+    {
+      "title": "Bangalore",
+      "src": "../../../assets/images/bangalore.JPG",
+      "slug": "bangalore"
+    },
+    {
+      "title": "Bhubaneswar",
+      "src": "../../../assets/images/bhubaneswar.JPG",
+      "slug": "bhubaneswar"
     }
   ],
   "servicesList": [

@@ -1,0 +1,68 @@
+{
+    "kolkata":[
+        "IMI",
+        "IEM",
+        "FUTURE",
+        "PRAXIS",
+        "UNITED WORLD",
+        "GLOBSYN",
+        "BIBS",
+        "EIILM",
+        "CBS",
+        "TECHNO"
+    ],
+    "delhi":[
+        "DOON BUSINESS SCHOOL",
+        "SUNSTONE",
+        "IILM",
+        "FOSTIIMA",
+        "JAIPURIA",
+        "ASIA PACIFIC",
+        "GL BAJAJ",
+        "SOIL",
+        "CMD",
+        "GNIOT",
+        "BIMTECH"
+    ],
+    "pune":[
+        "DR. D. Y. PATIL B-SCHOOL",
+        "ISMS PUNE",
+        "RIIM",
+        "PIBM",
+        "IBMR",
+        "INDIRA BUSINESS SCHOOL",
+        "PBS"
+    ],
+    "hyderabad":[
+        "SIVA SIVANI",
+        "VIGNANA JYOTHI",
+        "IPE"
+    ],
+    "mumbai":[
+        "WELINGKAR",
+        "ATLAS SKILLTECH UNIVERSITY",
+        "ITM-NAVI MUMBAI",
+        "UBS"
+    ],
+    "bangalore":[
+        "ABBS",
+        "AIMS",
+        "KIRLOSKAR",
+        "RCM",
+        "ISME",
+        "IBA",
+        "IIBS",
+        "GIBS",
+        "CMR",
+        "ALLIANCE",
+        "ISBR",
+        "SDMIMD",
+        "IZEE"
+
+    ],
+    "bhubaneswar":[
+        "IMIS",
+        "BIRLA GLOBAL UNIVERSITY",
+        "IMI"
+    ]
+}

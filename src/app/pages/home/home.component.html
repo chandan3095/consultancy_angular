@@ -86,14 +86,14 @@
 <!-- Why us  -->
 <section class="why-us py-5">
   <div class="container">
-    <app-section-title title="Why Us"></app-section-title>
+    <app-section-title title="Our Associated Colleges"></app-section-title>
 
     <div class="row">
       <div
         class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"
-        *ngFor="let item of whyUsList"
+        *ngFor="let item of associatedCities"
       >
-        <why-us-sec title="{{ item.title }}" src="{{ item.src }}"></why-us-sec>
+        <why-us-sec title="{{ item.title }}" src="{{ item.src }}" slug="{{ item.slug }}"></why-us-sec>
       </div>
     </div>
   </div>
