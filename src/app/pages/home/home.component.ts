@@ -8,6 +8,7 @@ import { SectionCardComponent } from '../../components/section-card/section-card
 import { SectionCarouselComponent } from '../../components/section-carousel/section-carousel.component';
 import { SectionAnimatedComponent } from '../../components/section-animated/section-animated.component';
 import { Router } from '@angular/router';
+import { EnquiryFormComponent } from '../../components/enquiry-form/enquiry-form.component';
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,7 @@ import { Router } from '@angular/router';
     SectionCardComponent,
     SectionCarouselComponent,
     SectionAnimatedComponent,
+    EnquiryFormComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
@@ -34,6 +36,7 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {
+    this.openModalAutomatically();
     this.whyUsList = (whyUsData as any).whyUsList;
     this.serviceList = (whyUsData as any).servicesList;
     this.linkList = (whyUsData as any).linksList;
@@ -46,5 +49,13 @@ export class HomeComponent implements OnInit {
 
   public onCarouselClick() {
     console.log('clicked');
+  }
+
+  openModalAutomatically(): void {
+    const modalElement = document.getElementById('enquiryModal');
+    if (modalElement) {
+      const bootstrapModal = new (window as any).bootstrap.Modal(modalElement);
+      bootstrapModal.show();
+    }
   }
 }
