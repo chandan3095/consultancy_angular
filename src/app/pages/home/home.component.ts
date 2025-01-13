@@ -36,6 +36,8 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {
+    this.openModalAutomatically();
+
     this.associatedCities = (whyUsData as any).associatedCities;
     this.serviceList = (whyUsData as any).servicesList;
     this.linkList = (whyUsData as any).linksList;
