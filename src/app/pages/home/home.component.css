@@ -38,3 +38,33 @@
   background-repeat: no-repeat;
   height: 90vh;
 }
+
+.blinking-text {
+  animation-name: blink;
+  font-weight: 700;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  transition: all 0.3s;
+  text-align: center;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+}
+
+@keyframes blink {
+  0% {
+    color: red;
+  }
+  50% {
+    color: rgb(16, 176, 245);
+  }
+  100% {
+    color: red;
+  }
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  padding: 0.5rem;
+}

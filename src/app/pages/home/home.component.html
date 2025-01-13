@@ -93,12 +93,20 @@
         class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3"
         *ngFor="let item of associatedCities"
       >
-        <why-us-sec title="{{ item.title }}" src="{{ item.src }}" slug="{{ item.slug }}"></why-us-sec>
+        <why-us-sec
+          title="{{ item.title }}"
+          src="{{ item.src }}"
+          slug="{{ item.slug }}"
+        ></why-us-sec>
       </div>
     </div>
   </div>
 </section>
 <!-- Why us  -->
+
+<!-- blinking text  -->
+<p class="blinking-text py-4">ADMISSION OPEN 2025</p>
+<!-- blinking text  -->
 
 <!-- Service / Animated -->
 <section class="services-container py-5">
@@ -137,30 +145,39 @@
 <!-- book a demo -->
 <section class="book-demo py-5">
   <div class="container">
-    <app-section-title title="Book a Demo"></app-section-title>
+    <app-section-title title="Our Achivements"></app-section-title>
 
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <p class="secondary-text-color lh-lg">
-          UniAgents is a leading technology services provider, and part of
-          Global Reach, an Overseas Education Consultant for over 32 years. We
-          help Institutions, Consultants, Government agencies High Schools and
-          Students, meet their respective international student mobility goals.
-          To understand more how our technology helps meet your requirements,
-          you can book a consultation session with one of our trained and
-          Certified Relationship Managers. Your Specialist Relationship Manager
-          will provide recommendations that will help you in making a decision
-          based on a demonstration of the technology system. You can also
-          request for a FREE trial if you qualify for it.
-        </p>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <div class="d-flex justify-content-center">
+          <div
+            class="circle bg-primary text-white rounded-circle d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1>1100+</h1>
+            <h4 class="text-center fs-5">Students Placed</h4>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="book-demo-img">
-          <img
-            src="../../../assets/images/echo-system.png"
-            alt=""
-            class="w-100"
-          />
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <div class="d-flex justify-content-center">
+          <div
+            class="circle bg-warning text-white rounded-circle d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1>500+</h1>
+            <h4 class="text-center fs-5">Associate College's</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+        <div class="d-flex justify-content-center">
+          <div
+            class="circle bg-info text-white rounded-circle d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1>7</h1>
+            <h4 class="text-center fs-5">
+              Years of Experience in admission counselling
+            </h4>
+          </div>
         </div>
       </div>
     </div>
@@ -198,29 +215,3 @@
   </div>
 </section>
 <!-- students services  -->
-
-<!-- enquiry form  -->
-<div
-  class="modal fade"
-  id="enquiryModal"
-  tabindex="-1"
-  aria-labelledby="enquiryModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header border-0">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Enquiry Form</h1>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="modal-body">
-        <enquiry-form></enquiry-form>
-      </div>
-    </div>
-  </div>
-</div>
