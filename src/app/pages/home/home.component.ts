@@ -8,6 +8,7 @@ import { SectionCardComponent } from '../../components/section-card/section-card
 import { SectionCarouselComponent } from '../../components/section-carousel/section-carousel.component';
 import { SectionAnimatedComponent } from '../../components/section-animated/section-animated.component';
 import { Router } from '@angular/router';
+import { SectionPlacementCompanyComponent } from "../../components/section-placement-company/section-placement-company.component";
 
 @Component({
   selector: 'app-home',
@@ -20,6 +21,7 @@ import { Router } from '@angular/router';
     SectionCardComponent,
     SectionCarouselComponent,
     SectionAnimatedComponent,
+    SectionPlacementCompanyComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',

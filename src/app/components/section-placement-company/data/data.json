@@ -1,0 +1,193 @@
+[
+    {
+        "slug": "tata",
+        "name": "TATA Consultency Service",
+        "logo": "tata.jpg"
+    },
+    {
+        "slug": "capgemini",
+        "name": "Capgemini",
+        "logo": "capgemini.png"
+    },
+    {
+        "slug": "choice",
+        "name": "CHOICE",
+        "logo": "choice.png"
+    },
+    {
+        "slug": "victory",
+        "name": "Victory Metal Finishers",
+        "logo": "victory.png"
+    },
+    {
+        "slug": "pwc",
+        "name": "pwc",
+        "logo": "pwc.png"
+    },
+    {
+        "slug": "tns",
+        "name": "TNS",
+        "logo": "tns.png"
+    },
+    {
+        "slug": "wipro",
+        "name": "wipro",
+        "logo": "wipro.png"
+    },
+    {
+        "slug": "cognizant",
+        "name": "cognizant",
+        "logo": "cognizant.png"
+    },
+    {
+        "slug": "infosys",
+        "name": "infosys",
+        "logo": "infosys.png"
+    },
+    {
+        "slug": "accenture",
+        "name": "accenture",
+        "logo": "accenture.png"
+    },
+    {
+        "slug": "ibm",
+        "name": "IBM",
+        "logo": "ibm.png"
+    },
+    {
+        "slug": "oracle",
+        "name": "oracle",
+        "logo": "oracle.png"
+    },
+    {
+        "slug": "deloitte",
+        "name": "deloitte",
+        "logo": "deloitte.png"
+    },
+    {
+        "slug": "shrachi",
+        "name": "shrachi",
+        "logo": "shrachi.png"
+    },
+    {
+        "slug": "tata-motors",
+        "name": "TATA motors",
+        "logo": "tata-motors.png"
+    },
+    {
+        "slug": "harman",
+        "name": "harman",
+        "logo": "harman.png"
+    },
+    {
+        "slug": "tech-mahindra",
+        "name": "tech-mahindra",
+        "logo": "tech-mahindra.png"
+    },
+    {
+        "slug": "reliance",
+        "name": "reliance",
+        "logo": "reliance.png"
+    },
+    {
+        "slug": "workz",
+        "name": "workz",
+        "logo": "workz.png"
+    },
+    {
+        "slug": "mindtree",
+        "name": "mindtree",
+        "logo": "mindtree.jpg"
+    },
+    {
+        "slug": "cozeva",
+        "name": "cozeva",
+        "logo": "cozeva.png"
+    },
+    {
+        "slug": "keyence",
+        "name": "keyence",
+        "logo": "keyence.png"
+    },
+    {
+        "slug": "innoraft",
+        "name": "innoraft",
+        "logo": "innoraft.jpg"
+    },
+    {
+        "slug": "nri",
+        "name": "nri",
+        "logo": "nri.jpg"
+    },
+    {
+        "slug": "mthree",
+        "name": "mthree",
+        "logo": "mthree.png"
+    },
+    {
+        "slug": "cogitate",
+        "name": "cogitate",
+        "logo": "cogitate.png"
+    },
+    {
+        "slug": "42hertz",
+        "name": "42hertz",
+        "logo": "42hertz.jpg"
+    },
+    {
+        "slug": "hink",
+        "name": "hink",
+        "logo": "hink.jpg"
+    },
+    {
+        "slug": "buyerforesight",
+        "name": "buyerforesight",
+        "logo": "buyerforesight.png"
+    },
+    {
+        "slug": "cdk",
+        "name": "cdk",
+        "logo": "cdk.jpg"
+    },
+    {
+        "slug": "dxc",
+        "name": "dxc",
+        "logo": "dxc.png"
+    },
+    {
+        "slug": "zifq",
+        "name": "zifq",
+        "logo": "zifq.png"
+    },
+    {
+        "slug": "abzooba",
+        "name": "abzooba",
+        "logo": "abzooba.png"
+    },
+    {
+        "slug": "drawinbox",
+        "name": "drawinbox",
+        "logo": "drawinbox.png"
+    },
+    {
+        "slug": "turbot",
+        "name": "turbot",
+        "logo": "turbot.png"
+    },
+    {
+        "slug": "css-corp",
+        "name": "css-corp",
+        "logo": "css-corp.png"
+    },
+    {
+        "slug": "dronahq",
+        "name": "dronahq",
+        "logo": "dronahq.png"
+    },
+    {
+        "slug": "polycab",
+        "name": "polycab",
+        "logo": "polycab.png"
+    }
+    
+]
