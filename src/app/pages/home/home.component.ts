@@ -33,7 +33,20 @@ export class HomeComponent implements OnInit {
   studentServiceList: { title: string; image: string; description: string }[] =
     [];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    let PureCounter:any;
+    let script = window.document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.min.js";
+    window.document.querySelector('body')?.appendChild(script);
+
+    let newScript = window.document.createElement('script');
+    newScript.innerHTML = `
+      window.setTimeout(() => {
+        new PureCounter();
+      }, 1000);
+    `;
+    window.document.querySelector('body')?.appendChild(newScript);
+  }
 
   ngOnInit(): void {
     this.associatedCities = (whyUsData as any).associatedCities;
