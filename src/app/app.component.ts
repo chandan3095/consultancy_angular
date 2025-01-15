@@ -18,13 +18,15 @@ import { EnquiryFormComponent } from './components/enquiry-form/enquiry-form.com
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
-    this.openModalAutomatically();
+    this.openModalAutomatically(5000);
   }
-  openModalAutomatically(): void {
-    const modalElement = document.getElementById('enquiryModal');
-    if (modalElement) {
-      const bootstrapModal = new (window as any).bootstrap.Modal(modalElement);
-      bootstrapModal.show();
-    }
+  openModalAutomatically(delay: number): void {
+    setTimeout(() => {
+      const modalElement = document.getElementById('enquiryModal');
+      if (modalElement) {
+        const bootstrapModal = new (window as any).bootstrap.Modal(modalElement);
+        bootstrapModal.show();
+      }
+    }, delay);
   }
 }
