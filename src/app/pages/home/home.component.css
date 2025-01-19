@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.8),
       rgba(128, 128, 128, 0.5)
     ),
-    url("../../../assets/images/carousel1.jpg");
+    url("../../../assets/images/banner\ \(1\).avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
       rgba(0, 0, 0, 0.8),
       rgba(128, 128, 128, 0.5)
     ),
-    url("../../../assets/images/carousel2.jpg");
+    url("../../../assets/images/banner\ \(1\).jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,159 @@
       rgba(0, 0, 0, 0.8),
       rgba(128, 128, 128, 0.5)
     ),
-    url("../../../assets/images/carousel3.jpg");
+    url("../../../assets/images/banner\ \(1\).jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.carousel4 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel5 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(1\).webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel6 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(2\).jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.carousel7 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(2\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel8 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(2\).webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel9 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(3\).jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.carousel10 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(3\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel11 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(3\).webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel12 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(4\).jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+.carousel13 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(4\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel14 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(5\).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.carousel15 {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(128, 128, 128, 0.5)
+    ),
+    url("../../../assets/images/banner\ \(5\).jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;

@@ -9,3 +9,19 @@
   display: block;
   width: 100px;
 }
+
+.header-strip {
+  font-weight: 1rem;
+  font-weight: normal;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+.header-strip .container{
+  gap: 20px;
+}
+.header-strip a{
+  color: white;
+  text-decoration: none;
+}

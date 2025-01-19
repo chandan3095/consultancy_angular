@@ -19,6 +19,7 @@ import { EnquiryFormComponent } from './components/enquiry-form/enquiry-form.com
 export class AppComponent implements OnInit {
   ngOnInit(): void {
     this.openModalAutomatically(5000);
+    document.getElementById('floating_button')?.addEventListener('click', this.openEnquiryModal);
   }
   openModalAutomatically(delay: number): void {
     setTimeout(() => {
@@ -28,5 +29,10 @@ export class AppComponent implements OnInit {
         bootstrapModal.show();
       }
     }, delay);
+  }
+  openEnquiryModal = function () {
+    const modalElement = document.getElementById('enquiryModal');
+    const bootstrapModal = new (window as any).bootstrap.Modal(modalElement);
+    bootstrapModal.show();
   }
 }

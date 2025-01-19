@@ -1,6 +1,58 @@
 @import url(../../styles/style.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 
 .logo {
   display: block;
   width: 100px;
+}
+.conatact-info h4 a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+.conatact-info h4 a:hover{
+  color: black;
+}
+.footer_body {
+  float: left;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+.footer_logodiv {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.footer_social {
+  float: left;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.footer_title {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.footer_phonegap {
+  padding-left: 0px !important;
+  padding-right: 15px !important;
+}
+.footer_bottomdiv {
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 10px 0%;
+  text-align: center;
+  color: #CCCCCC;
+  font-size: 13px;
+  background-color: #02275e;
 }

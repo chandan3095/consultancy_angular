@@ -19,3 +19,15 @@
   left: 50%;
   transform: translate(-15%, -45%);
 }
+
+.fixed-btn{
+  --width: 150px;
+  position: fixed;
+  width: var(--width);
+  rotate: 90deg;
+  top: calc(55vh - var(--width) / 2);
+  right: -58px;
+  z-index: 99999;
+  padding: 8px 10px 10px 10px;
+  box-shadow: 0px 0px 2px 0.5px gainsboro;
+}
