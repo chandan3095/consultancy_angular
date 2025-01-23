@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+:root{
+  --bs-blue: #3863af !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,13 +17,6 @@
   font-family: "Roboto", serif;
 }
 
-.modal {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-15%, -45%);
-}
-
 .fixed-btn{
   --width: 150px;
   position: fixed;
@@ -27,7 +24,7 @@
   rotate: 90deg;
   top: calc(55vh - var(--width) / 2);
   right: -58px;
-  z-index: 99999;
+  z-index: 1054;
   padding: 8px 10px 10px 10px;
   box-shadow: 0px 0px 2px 0.5px gainsboro;
 }

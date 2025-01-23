@@ -9,6 +9,7 @@ import { SectionCarouselComponent } from '../../components/section-carousel/sect
 import { SectionAnimatedComponent } from '../../components/section-animated/section-animated.component';
 import { Router } from '@angular/router';
 import { SectionPlacementCompanyComponent } from "../../components/section-placement-company/section-placement-company.component";
+import { init } from 'aos';
 
 @Component({
   selector: 'app-home',

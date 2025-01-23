@@ -38,35 +38,35 @@
   ],
   "servicesList": [
     {
-      "title": "Consultants",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Guiding Your Path to Success",
+      "description": "Explore your career options with expert guidance from our skilled counseling specialists.",
       "image": "../../../assets/images/search.png"
     },
 
     {
-      "title": "Institutions",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Seamless Guidance for Your Admissions Journey",
+      "description": "Turn your academic dreams into reality with personalized admission assistance for top universities in India and around the world.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "Students",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Excel in Your MBA Journey with Expert Prep Classes",
+      "description": "We offer seamless support for all professional postgraduate courses.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "High Schools",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Explore Opportunities at the Education Fair Schools",
+      "description": "Shape Your Future Under One Roof: Connect with representatives from top colleges and explore limitless opportunities at our Education Fair.",
       "image": "../../../assets/images/search.png"
     },
 
     {
-      "title": "Institutions",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Enhance Your Expertise with Skill Development Courses",
+      "description": "We provide a variety of courses designed to help students refine their skills and nurture their potential.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "Students",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis perferendis praesentium quo, deserunt fuga odit obcaecati aliquam facere deleniti ex dicta, nisi fugiat cupiditate. Modi tempore temporibus dolor perspiciatis.",
+      "title": "Guidance and Support for Your Education Loan",
+      "description": "Expert guidance on loan options, paperwork, and best-fit banks for your academic aspirations",
       "image": "../../../assets/images/search.png"
     }
   ],

@@ -35,10 +35,10 @@
   color: aliceblue;
 }
 .headline2-color {
-  color: grey;
+  color: #3863af;
 }
 .headline3-color {
-  color: #05409a;
+  color: #3863af;
 }
 .headline4-color {
   color: antiquewhite;
@@ -55,9 +55,9 @@
 }
 
 .services-container{
-  background: #0063ff;
-  background: -moz-linear-gradient(90deg, #0063ff 0%, #0063ff 100%);
-  background: -webkit-linear-gradient(90deg, #0063ff 0%, #0063ff 100%);
-  background: linear-gradient(90deg, #0063ff 0%, #0063ff 100%);
+  background: #3863af;
+  background: -moz-linear-gradient(90deg, #3863af 0%, #3863af 100%);
+  background: -webkit-linear-gradient(90deg, #3863af 0%, #3863af 100%);
+  background: linear-gradient(90deg, #3863af 0%, #3863af 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#193664",endColorstr="#035b9b",GradientType=1);padding:20px 0;min-height:500px;
 }

@@ -193,12 +193,12 @@
 
 .blinking-text {
   animation-name: blink;
-  font-weight: 700;
-  font-size: 1.7rem;
+  font-weight: 900;
+  font-size: 3rem;
   letter-spacing: 3px;
   transition: all 0.3s;
   text-align: center;
-  animation-duration: 2s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in;
   animation-iteration-count: Infinite;
 }
@@ -207,8 +207,11 @@
   0% {
     color: red;
   }
-  50% {
-    color: rgb(16, 176, 245);
+  30% {
+    color: blue;
+  }
+  70%{
+    color: green;
   }
   100% {
     color: red;
