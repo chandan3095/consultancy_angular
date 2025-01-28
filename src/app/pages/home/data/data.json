@@ -38,34 +38,34 @@
   ],
   "servicesList": [
     {
-      "title": "Guiding Your Path to Success",
+      "title": "Career Counselling",
       "description": "Explore your career options with expert guidance from our skilled counseling specialists.",
       "image": "../../../assets/images/search.png"
     },
 
     {
-      "title": "Seamless Guidance for Your Admissions Journey",
+      "title": " Admission Assistance",
       "description": "Turn your academic dreams into reality with personalized admission assistance for top universities in India and around the world.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "Excel in Your MBA Journey with Expert Prep Classes",
+      "title": "MBA Prep Classes",
       "description": "We offer seamless support for all professional postgraduate courses.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "Explore Opportunities at the Education Fair Schools",
+      "title": "Education Fair",
       "description": "Shape Your Future Under One Roof: Connect with representatives from top colleges and explore limitless opportunities at our Education Fair.",
       "image": "../../../assets/images/search.png"
     },
 
     {
-      "title": "Enhance Your Expertise with Skill Development Courses",
+      "title": "Skill Development Courses",
       "description": "We provide a variety of courses designed to help students refine their skills and nurture their potential.",
       "image": "../../../assets/images/search.png"
     },
     {
-      "title": "Guidance and Support for Your Education Loan",
+      "title": "Education Loan Assistance",
       "description": "Expert guidance on loan options, paperwork, and best-fit banks for your academic aspirations",
       "image": "../../../assets/images/search.png"
     }
