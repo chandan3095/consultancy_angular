@@ -13,7 +13,7 @@
 </div>
 <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary py-3">
   <div class="container">
-    <div class="w-30">
+    <div class="w-20">
       <span class="logo position-absolute">
         <a routerLink="/"><img src="../../../assets/images/app-logo-min.png" alt="logo" class="w-100" /></a>
       </span>
@@ -42,22 +42,102 @@
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/about" routerLinkActive="active"
-            >About</a
-          >
+          <button class="nav-link navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light px-2 py-1" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/about">About Das Admission Centre</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/mission-vision">Mission & Vision</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/message-from-director">Message From The Director</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/advisory-team">Advisory Team</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/work-with-us">Work With Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/services" routerLinkActive="active"
-            >Services</a
+          <button class="nav-link navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#servicesDroopdown" aria-controls="servicesDroopdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="servicesDroopdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light px-2 py-1" aria-labelledby="servicesMenu">
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/services">Career Counselling</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/admission-assistance">Admission Assistance</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/mba-prep-classes">MBA Prep Classes</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/education-fairs">Education Fairs</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/psychometric-test">Psychometric Test</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/skill-development-courses">Skill Development Courses</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/education-loan">Education Loan</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#coursesDropsown" aria-controls="coursesDropsown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="coursesDropsown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="coursesMwnu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light px-2 py-1" aria-labelledby="coursesMwnu">
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/ug">UG</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/mba-pgdm">MBA & PGDM</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#studyDropdown" aria-controls="studyDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="studyDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="studyMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Study Abroad
+                </a>
+                <ul class="dropdown-menu dropdown-menu-light px-2 py-1" aria-labelledby="studyMenu">
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/united-kingdom">United Kingdom</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/scotland">Scotland</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/finland">Finland</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/germany">Germany</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/canada">Canada</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/australia">Australia</a></li>
+                  <li><a class="dropdown-item nav-link" routerLinkActive="active" routerLink="/foreign-languages">Foreign Languages</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/online-courses" routerLinkActive="active"
+            >Online Courses</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/contact" routerLinkActive="active"
-            >Contact</a
+            >Contact Us</a
           >
         </li>
       </ul>
-      <div class="ps-5 w-auto w-md-30 d-flex justify-content-end">
+      <div class="ps-4 w-auto w-md-30 d-flex justify-content-end">
         <app-props-button
           title="Book a Demo"
           (buttonClick)="onClick()"

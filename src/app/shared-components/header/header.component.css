@@ -32,3 +32,12 @@
 .header-strip a:hover{
   color: #de9d25;
 }
+
+.dropdown-item.nav-link.active, .dropdown-item.nav-link:active {
+  font-weight: bold;
+  color: #3863af;
+  background-color: inherit;
+}
+.dropdown-item.nav-link:active {
+  font-weight: normal;
+}
